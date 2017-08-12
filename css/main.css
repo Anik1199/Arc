@@ -1,0 +1,111 @@
+/* Custom Style */
+
+body {
+	margin-bottom: 50rem
+}
+
+.navigation {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 3rem;
+	padding-right: 3rem
+}
+
+a.nav-link {
+	color: #636c72;
+}
+
+.brand-logo {
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.jumbotron {
+	color: white;
+	background-color: #636c72;
+	border-radius: 0
+}
+
+.jumbotron-lead {
+	margin-top: 1.5rem;
+}
+
+.button-jumbotron {
+	margin-top: 1.5rem;
+	color: white;
+	background-color: #0275d8;
+	border-color: #0275d8;
+}
+
+.section-header {
+	margin-bottom: 1.5rem;
+}
+
+.icon-html5 {
+	color: orange;
+	margin-left: 40%;
+	margin-bottom: 1.5rem;
+	font-size: 5rem
+}
+
+.icon-css3 {
+	color: royalblue;
+	margin-left: 40%;
+	margin-bottom: 1.5rem;
+	font-size: 5rem
+}
+
+.icon-server {
+	color: darkred;
+	margin-left: 40%;
+	margin-bottom: 1.5rem;
+	font-size: 5rem
+}
+
+.about-header {
+	margin-top: 1.7rem;
+	margin-bottom: 1.5rem
+}
+
+.about-col-1 {
+	padding-bottom: 7rem;
+	background-color: #636c72;
+	position: relative;
+	outline-style: solid;
+	outline-width: thin
+}
+
+.about-col-2 {
+	padding-bottom: 7rem;
+	background-color: white;
+	position: relative;
+	outline-style: solid;
+	outline-width: thin
+}
+
+.about-text {
+	padding-top: 2rem
+}
+
+.about-text-color {
+	color: white
+}
+
+.contact-header {
+	padding-top: 3rem
+}
+
+@media (max-width:746px) {
+	.icon-html5 {
+		margin-left: 45%
+	}
+
+@media (max-width:746px) {
+	.icon-css3 {
+		margin-left: 45%
+	}
+
+@media (max-width:746px) {
+	.icon-server {
+		margin-left: 45%
+	}
