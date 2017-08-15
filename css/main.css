@@ -1,7 +1,7 @@
 /* Custom Style */
 
 body {
-	margin-bottom: 50rem
+	margin-bottom: 30rem
 }
 
 .navigation {
@@ -67,32 +67,28 @@ a.nav-link {
 	margin-bottom: 1.5rem
 }
 
-.about-col-1 {
-	padding-bottom: 7rem;
+.flexbox {
+	display:flex;
+}
+
+.flexbox div {
+	border: .5px #ccc solid;
+	padding: 30px
+}
+
+.flex-1 {
 	background-color: #636c72;
-	position: relative;
-	outline-style: solid;
-	outline-width: thin
-}
-
-.about-col-2 {
-	padding-bottom: 7rem;
-	background-color: white;
-	position: relative;
-	outline-style: solid;
-	outline-width: thin
-}
-
-.about-text {
-	padding-top: 2rem
-}
-
-.about-text-color {
 	color: white
 }
 
+.flex-2 {
+	background-color: white;
+	color: black
+}
+
 .contact-header {
-	padding-top: 3rem
+	margin-top: 1.7rem;
+	margin-bottom: 1.5rem
 }
 
 @media (max-width:746px) {
